@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{BA332E57-2131-4F38-82B2-391BF2CF2B0D}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>index</RootNamespace>
+    <AssemblyName>index</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="css\grid.css" />
+    <Content Include="css\ie.css" />
+    <Content Include="css\reset.css" />
+    <Content Include="css\style.css" />
+    <Content Include="datospublicos.aspx" />
+    <Content Include="images\banner-1.png" />
+    <Content Include="images\banner-2.png" />
+    <Content Include="images\banner-3.png" />
+    <Content Include="images\body-tail.gif" />
+    <Content Include="images\box-tail.gif" />
+    <Content Include="images\button-tail.gif" />
+    <Content Include="images\button2-tail.gif" />
+    <Content Include="images\content-tail.gif" />
+    <Content Include="images\gallery-img1.jpg" />
+    <Content Include="images\gallery-img2.jpg" />
+    <Content Include="images\gallery-img3.jpg" />
+    <Content Include="images\gallery-img4.jpg" />
+    <Content Include="images\gallery-img5.jpg" />
+    <Content Include="images\gallery-img6.jpg" />
+    <Content Include="images\h3-tail.gif" />
+    <Content Include="images\logo.png" />
+    <Content Include="images\marker-1.gif" />
+    <Content Include="images\page1-img1.png" />
+    <Content Include="images\page1-img2.png" />
+    <Content Include="images\page1-img3.jpg" />
+    <Content Include="images\page2-img1.png" />
+    <Content Include="images\page3-img1.png" />
+    <Content Include="images\page3-img2.png" />
+    <Content Include="images\page3-img3.png" />
+    <Content Include="images\page4-img1.png" />
+    <Content Include="images\page4-img2.png" />
+    <Content Include="images\pic-1.gif" />
+    <Content Include="images\row-bot-tail.gif" />
+    <Content Include="images\social-icons.png" />
+    <Content Include="images\thumb-1.png" />
+    <Content Include="images\thumb-2.png" />
+    <Content Include="images\thumb-3.png" />
+    <Content Include="images\thumb-4.png" />
+    <Content Include="images\thumb-5.png" />
+    <Content Include="images\thumb-6.png" />
+    <Content Include="images\time-bg.png" />
+    <Content Include="index.aspx" />
+    <Content Include="js\cufon-replace.js" />
+    <Content Include="js\cufon-yui.js" />
+    <Content Include="js\FF-cash.js" />
+    <Content Include="js\Glegoo_400.font.js" />
+    <Content Include="js\html5.js" />
+    <Content Include="js\jquery-1.7.1.min.js" />
+    <Content Include="js\jquery.galleriffic.js" />
+    <Content Include="js\jquery.opacityrollover.js" />
+    <Content Include="js\PIE.htc" />
+    <Content Include="js\script.js" />
+    <Content Include="miAmigo.aspx" />
+    <Content Include="publicaciones.aspx" />
+    <Content Include="usuarios.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="datospublicos.aspx.cs">
+      <DependentUpon>datospublicos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="datospublicos.aspx.designer.cs">
+      <DependentUpon>datospublicos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="miAmigo.aspx.cs">
+      <DependentUpon>miAmigo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="miAmigo.aspx.designer.cs">
+      <DependentUpon>miAmigo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="nuestraMasterpage.Master.cs">
+      <DependentUpon>nuestraMasterpage.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="nuestraMasterpage.Master.designer.cs">
+      <DependentUpon>nuestraMasterpage.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="publicaciones.aspx.cs">
+      <DependentUpon>publicaciones.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="publicaciones.aspx.designer.cs">
+      <DependentUpon>publicaciones.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="usuarios.aspx.cs">
+      <DependentUpon>usuarios.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="usuarios.aspx.designer.cs">
+      <DependentUpon>usuarios.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Controladoras\Controladoras.csproj">
+      <Project>{E441752F-CDF2-40DC-B09A-8F159F2675E7}</Project>
+      <Name>Controladoras</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DAO\DAO.csproj">
+      <Project>{06576F2B-3C89-4811-B889-723B4B30C4FC}</Project>
+      <Name>DAO</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="nuestraMasterpage.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Themes\Tema1\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="js\PIE.php" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>1413</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
