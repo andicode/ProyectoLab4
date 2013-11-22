@@ -9,7 +9,7 @@
 <body>
     <form id="form1" runat="server">
     <div>
-    <h1>no es mi amigo</h1>
+    <h1>hola</h1>
     <asp:Button ID="btnSolicitud" runat="server" Text="Enviar Solicitud de Amistad" />    
     </div>
     </form>
